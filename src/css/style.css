@@ -1,0 +1,143 @@
+body {
+  background: var(--very-dark-blue);
+  font-family: "Overpass", sans-serif;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.rating-card,
+.card-thank-you {
+  width: 412px;
+  height: 416px;
+  border-radius: 30px;
+  background: var(
+    --black-gradient,
+    radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%)
+  );
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rating-card{
+  display: none;
+}
+
+.rating-card .img-card {
+  padding: 16px;
+  background-color: #262e38;
+  border-radius: 50%;
+  align-self: flex-start;
+}
+
+.rating-card .title-card {
+  color: #ffffff;
+  font-size: 28px;
+  margin: 30px 0 7px;
+  align-self: flex-start;
+}
+
+.rating-card .text-card {
+  color: var(--light-gray, #969fad);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 24px;
+}
+
+.rating-card .btn-rate {
+  display: flex;
+  gap: 22px;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.rating-card .btn-rate button {
+  font-family: "Overpass", sans-serif;
+  padding: 15px;
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  border: none;
+  background: var(--dark-blue);
+  color: var(--light-gray);
+  font-weight: 700;
+}
+
+.rating-card .btn-rate button.selected {
+  background: var(--primary-soft);
+  color: var(--very-dark-blue);
+}
+
+.rating-card .btn-rate button:hover {
+  background: #ffffff;
+  color: var(--very-dark-blue);
+  cursor: pointer;
+}
+
+.rating-card .form-submit{
+  width: 100%;
+}
+
+.rating-card .btn-submit {
+  width: 100%;
+  background: var(--primary-soft);
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  height: 45px;
+  border-radius: 22.5px;
+  border: none;
+}
+
+.rating-card .btn-submit:hover {
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.card-thank-you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+
+.card-thank-you .img-card-thank-you {
+  margin: 45px 0 36px;
+}
+
+.card-thank-you .text-selected {
+  color: var(--primary-soft);
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 22.5px;
+  background: var(--dark-blue);
+  padding: 4px 20px;
+  margin-bottom: 32px;
+}
+
+.card-thank-you .title-card-thank-you {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.card-thank-you .text-card-thank-you {
+  color: var(--light-gray);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  width: 340px;
+}
+
+.active{
+  display: flex;
+}

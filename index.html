@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="interactive rating component" />
+    <title>FrontEnd Mentor | Interactive Rating Component</title>
+    <link
+      rel="shortcut icon"
+      href="src/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="rating-card active">
+      <img
+        class="img-card"
+        src="./src/images/icon-star.svg"
+        alt="icon star"
+        srcset=""
+      />
+
+      <h2 class="title-card">How did we do?</h2>
+
+      <p class="text-card">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+
+      <div class="btn-rate">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+      </div>
+      <form class="form-submit" id="form">
+        <button type="submit" class="btn-submit">Submit</button>
+      </form>
+    </main>
+    <section class="card-thank-you">
+      <img
+        class="img-card-thank-you"
+        src="./src/images/illustration-thank-you.svg"
+        alt="illustration thank you"
+      />
+      <span class="text-selected" id="selection">You selected 4 out of 5</span>
+      <h2 class="title-card-thank-you">Thank you!</h2>
+      <p class="text-card-thank-you">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, dont't hesitate to get in touch!
+      </p>
+    </section>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>
