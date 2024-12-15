@@ -1,9 +1,9 @@
 # Interactive Rating Component
-![](./src/images/iPhone-14-Plus.png)
+![](./src/images/mockup.gif)
 
 <!-- ### Links -->
 <!-- - [Solution]() -->
-- [View Website](https://pedrowfilho.github.io/challenges/frontend-mentor/newbie/huddle-landing-page/) 🖱️
+- [View Website](https://pedrowfilho.github.io/interactive-rating-component/) 🖱️
 
 ## Visão Geral
 
